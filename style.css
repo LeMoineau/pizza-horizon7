@@ -1,0 +1,202 @@
+
+@font-face {
+font-family: 'melody';
+src: url('images/melody.otf');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+	font-family: "raleway";
+	src: url("images/raleway.ttf");
+}
+
+body {
+
+    margin: auto;
+    background-image: url('images/wallpaper2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "raleway", sans-serif;
+}
+
+#logo {
+	position: fixed;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 150px;
+	height: 100px;
+	opacity: 0.75;
+}
+
+#logoPizza {
+	position: fixed;
+	margin-top: -50px;
+	margin-left: 15px;
+	width: 430px;
+	height: 270px;
+	opacity: 0.75;
+}
+
+#infos {
+	visibility: initial;
+	position: fixed;
+	background-color: #fd3953;
+	width: 32%;
+	height: 27px;
+	margin-left: 23%;
+	margin-top: 0px;
+	padding: 5px;
+	padding-left: 5px;
+	font-size: 20px;
+	color: white;
+	opacity: 0.9;
+	border-radius: 0 0 5px 5px;
+}
+
+.liste, .commande {
+	width: 80%;
+	height: 50px;
+	margin-left: 7%;
+	font-size: 20px;
+	padding-left: 5px;
+	text-align: left;
+	border-color: black;
+	border: none;
+}
+
+.commande { visibility: hidden; width: 100%; margin-left: -3%; border-bottom: dashed; border-width: 1px; cursor: alias;}
+#e1, #mail { margin-top: 25px; border-top: dashed; border-width: 1px;}
+#mail { cursor: text; }
+
+
+#code { border-radius: 10px 10px 0px 0px; margin-top: 200px; }
+#num { border-radius: 0 0 0 10px; margin-bottom: 20px; width: 40%;}
+#date { width: 40%; margin-top: -50px; margin-left: -4px; height: 52px; border: none; border-radius: 0 0 10px 0; text-align: right;}
+
+#button {
+
+ 	background-color: #70a401; 
+	height: 45px;
+	width: 50%;
+	color: white;
+ 	border: none;
+	margin-left: 23%;
+	font-size: 17px;
+	border-radius: 5px;
+
+}
+
+#button:hover { cursor: pointer; background-color: #4c6f00; }
+#button:focus { background-color: grey; color: black; }
+
+.liste:hover {
+	background-color: lightgrey;
+	text-align: 10%;
+}
+
+.liste:focus {
+	border-color: blue;
+}
+
+#logo:hover {
+	opacity: 0.85;
+}
+
+#welcome {
+	position: fixed;
+	margin-left: 70%;
+	margin-top: 0%;
+    height: 100%;
+	width: 30%;
+	border-radius: 2px 2px 2px 2px;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 15px;
+}
+
+#welcome:hover {
+	background-color: rgba(255, 255, 255, 0.60);
+}
+
+.pizza {
+	opacity: 0.25;
+	position: absolute;
+	width: 70%;
+	height: 83%;
+	margin-top: 7%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.pizzaItem, .item {
+	opacity: 0.75;
+	height: 45%;
+	background-color: white;
+	border-radius: 2px;
+	background-image: url("images/pizzaItem1.jpg");
+	background-size: contain;
+	border: none;
+}
+
+.pizzaItem { width: 37%; }
+.pizzaItem:hover, .item:hover { opacity: 0.95; border: solid; border-color: white;}
+.item { width: 15%; }
+
+.desc, .desc2 {
+	height: 40%;
+	background-color: white;
+	padding-left: 5px;
+}
+
+.desc { margin-top: 40% }
+.desc2 { margin-top: 99% }
+
+h1 { margin-bottom: -20px; }
+h2 { margin-bottom: -50px; margin-top: 10px; font-size: 22px; }
+p { margin-bottom: 0px; }
+
+#commander, #commander2 {
+
+	position: fixed;
+ 	background-color: #70a401; 
+	height: 35px;
+	width: 60px;
+	color: white;
+ 	border: none;
+	font-size: 17px;
+	border-radius: 5px;
+}
+
+#commander:hover, #commander2:hover { cursor: pointer; background-color: #4c6f00; }
+#commander:focus, #commander2:focus { background-color: #87c305;  }
+
+#commander {margin-left: 22.5%;}
+#commander2 {margin-left: 7.2%;}
+
+#finalButton {
+	margin-left: 13%;
+	width: 75%;
+	height: 70px;
+	background-color: #de6718;
+	margin-top: 25px;
+	border-radius: 5px;
+	border: none;
+	font-size: 20px;
+	text-align: center;
+	font-family: "raleway";
+	color: white;
+	cursor: pointer;
+}
+
+#easter {
+	position: fixed;
+	visibility: hidden;
+	font-size: 8px;
+	color: white;
+	margin-top: 48%;
+	margin-left: 10px;
+	opacity: 0.8;
+}
