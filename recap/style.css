@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Solway&display=swap');
+
+body {
+
+  background-image: url("../imgs/bois.jpg");
+  background-position: center;
+  background-size: auto;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#recap, #commande {
+
+  background-color: #ecf0f1;
+  border-radius: 7px;
+  padding: 30px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+
+}
+
+h2 {
+
+  font-weight: normal;
+
+}
+
+h3 {
+
+  font-size: 40px;
+  margin: 10px;
+
+}
+
+h4 {
+  margin: 5px;
+  background-color: #f1c40f;
+}
+
+.line {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#commande {
+
+  background-color: #34495e;
+  color: white;
+  width: 350px;
+
+}
+
+#panier {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.item {
+
+  background-color: #ecf0f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  color: black;
+
+}
+
+#back {
+
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  background-color: #3498db;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+
+}
+
+#back:hover {
+
+  background-color: #2980b9;
+
+}

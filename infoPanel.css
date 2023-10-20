@@ -1,0 +1,206 @@
+#infoPanel {
+
+  background-image: url(imgs/bois.jpg);
+  background-position: center;
+  background-size: contain;
+  height: auto;
+  background-color: rgba(241, 242, 246,1.0);
+  padding-bottom: 30px;
+  border-top: solid 3px rgba(241, 242, 246,1.0);
+
+}
+
+#appel {
+
+  position: relative;
+  top: -40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: transparent
+
+}
+
+#come {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 450px;
+  height: 80px;
+  background-color: rgba(255, 71, 87,1.0);
+  border-radius: 50px;
+  align-items: center;
+  color: rgba(241, 242, 246,1.0);
+  transition: all 0.5s linear;
+
+}
+
+#panel {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+#left {
+
+  background-color: rgba(223, 228, 234,1.0);
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  border-radius: 5px;
+
+}
+
+form {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+input, select {
+
+  margin: 7px;
+  width: 300px;
+  height: 30px;
+  border-radius: 4px;
+  padding: 10px;
+  border: solid 1px grey;
+  background-color: transparent;
+  font-size: 15px;
+
+}
+
+select {
+
+  height: auto;
+  padding: 15px;
+
+}
+
+input[type='submit'] {
+
+  background-color: #3498db;
+  color: white;
+  height: 60px;
+  width: 350px;
+  font-size: 15px;
+  border: none;
+  margin-top: 20px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+
+  background-color: #2980b9;
+
+}
+
+label {
+
+  margin-bottom: -5px;
+  font-size: 15px;
+
+}
+
+.line {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 300px;
+
+}
+
+#right {
+
+  width: 600px;
+  height: auto;
+  background-color: #34495e;
+  border-radius: 5px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 30px;
+
+}
+
+.panierItem {
+
+  margin: 10px;
+  width: 80%;
+  border-radius: 7px;
+  background-color: #ecf0f1;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+
+}
+
+#panierTitle {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+#panierPrix {
+
+  border-radius: 5px;
+  background-color: #e67e22;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-left: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.reduceItem {
+
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s linear;
+
+}
+
+.reduceItem:hover {
+
+  background-color: #c0392b;
+
+}
+
+#numberOfClients {
+
+  margin: 5px;
+  background-color: #f1c40f;
+
+}
